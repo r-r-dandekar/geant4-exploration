@@ -2,7 +2,7 @@
 Performed on Ubuntu 22.04.1 LTS (with GUI)
 
 I'm doing everything inside directory \~/CSAT/geant4-exploration. 
-Will refer to this directory as /base/dir/ here.\n
+Will refer to this directory as /base/dir/ here.  
 `cd /base/dir/`
 
 
@@ -14,7 +14,7 @@ https://groups.google.com/g/adcs-csat-current/c/CghA1wsCbLM
 ```sudo apt-get install cmake cmake-curses-gui gcc g++ libexpat1-dev libxmu-dev libmotif-dev freeglut3-dev qt6-base-dev qt6-declarative-dev```
 
 ## Download and Extract Geant4's .tar.gz
-Download the *source code* from Geant4's website. At time of writing, latest version is: https://geant4.web.cern.ch/download/11.4.0.html\n\n
+Download the *source code* from Geant4's website. At time of writing, latest version is: https://geant4.web.cern.ch/download/11.4.0.html    
 
 
 Extract:
@@ -39,15 +39,15 @@ cmake \
 
 Compile the code using
 `make -jn` 
-where _n_ is the number of threads you want to make. On my system (which has 16 cores), I've run:\n
+where _n_ is the number of threads you want to make. On my system (which has 16 cores), I've run:  
 `make -j16`
 This takes a while and might need to be run multiple times if it times out.
 
-After it finishes successfully, run:\n
+After it finishes successfully, run:  
 `make install`
 
 Now there should be a directory: `/base/dir/geant4-v11.4.0-install`
-Go to this directory:\n
+Go to this directory:  
 `cd /base/dir/geant4-v11.4.0-install`
 
 This will have 4 subdirectories: bin, include, lib, and share. Navigate into: `.../share/Geant4/geant4make`
