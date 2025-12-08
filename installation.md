@@ -32,7 +32,8 @@ cmake \
   -D GEANT4_USE_QT=ON \
   -D GEANT4_USE_RAYTRACER_X11=ON \
   -D GEANT4_USE_SYSTEM_EXPAT=ON \
-  ~/CSAT/geant4-exploration/geant4-v11.4.0```
+  ~/CSAT/geant4-exploration/geant4-v11.4.0
+```
 
 Compile the code using
 `make -jn` 
