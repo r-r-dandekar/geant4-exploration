@@ -22,7 +22,8 @@ Extract:
 This creates a directory `geant4-v11.4.0`
 
 ## Build Geant4
-```cd geant4-v11.4.0
+```
+cd geant4-v11.4.0
 mkdir build
 cd build
 cmake \
@@ -55,8 +56,10 @@ There should be a .csh and a .sh file (e.g. geant4make.sh). Run the appropriate 
 `source geant4make.sh`
 
 Now similarly execute the geant4.sh  in bin/ folder which sets all the required the path variables.
-```$ cd /base/dir/geant4-v11.1.1-install/bin/
-$ source geant4.sh ```
+```
+$ cd /base/dir/geant4-v11.1.1-install/bin/
+$ source geant4.sh 
+```
 
 Now add the line in .bashrc file in home directory:
 `export LD_LIBRARY_PATH=/base/dir/geant4-v11.4.0-install/lib/:$LD_LIBRARY_PATH`
@@ -68,9 +71,11 @@ This finishes the installation process. Some official documentation: https://gea
 
 
 To verify the installation, run an example script
-```cd /base/dir/geant4-v11.4.0/examples/basic/B1/
+```
+cd /base/dir/geant4-v11.4.0/examples/basic/B1/
 mkdir build
 cd build
 cmake ..
 make
-./exampleB1```
+./exampleB1
+```
