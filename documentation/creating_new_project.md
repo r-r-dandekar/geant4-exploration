@@ -117,3 +117,5 @@ Run it:
 ./simulation
 ```
 A Geant4 simulation window should open up. The code doesn't actually specify any simulation, so the window won't actually do anything interesting.
+
+![Output of Demo Project](./images/creating_new_project.png)
