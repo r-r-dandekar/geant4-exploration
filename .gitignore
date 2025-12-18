@@ -1,3 +1,6 @@
 geant4-v11.4.0.tar.gz
 geant4-v11.4.0/
 geant4-v11.4.0-install/
+vscode_workspace/
+bin/
+build/

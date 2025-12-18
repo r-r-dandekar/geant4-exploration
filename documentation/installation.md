@@ -37,10 +37,10 @@ cmake \
   ~/CSAT/geant4-exploration/geant4-v11.4.0
 ```
 
-Compile the code using
+Compile the code using:  
 `make -jn` 
 where _n_ is the number of threads you want to make. On my system (which has 16 cores), I've run:  
-`make -j16`
+`make -j16`  
 This takes a while and might need to be run multiple times if it times out.
 
 After it finishes successfully, run:  
@@ -69,6 +69,8 @@ This finishes the installation process. Some official documentation: https://gea
 
 `export LD_LIBRARY_PATH=/home/radhan/CSAT/geant4-exploration/geant4-v11.4.0-install/lib/:$LD_LIBRARY_PATH`
 
+
+## Verify Installation
 
 To verify the installation, run an example script
 ```
