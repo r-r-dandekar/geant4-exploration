@@ -29,8 +29,9 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/vis/open OGL");
     UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
     UImanager->ApplyCommand("/vis/drawVolume");
-    UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");    // Refresh after each event
-    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth"); // Show trajectories
+    UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");        // Refresh after each event
+    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");      // Show trajectories
+    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");  // Accumulate all events that happen in one run
 
     ui->SessionStart();
 

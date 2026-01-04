@@ -1,0 +1,6 @@
+# Change depending on the number of cores in your CPU
+/run/numberOfThreads 16
+
+/run/initialize
+
+/run/beamOn 100000

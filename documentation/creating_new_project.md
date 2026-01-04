@@ -14,7 +14,7 @@ mkdir /path/to/myproject
 cd /path/to/myproject
 ```
 
-Your project structure at the end of the following steps should look something like this:
+Your project structure at the *end* of the following steps should look something like this:
 ```
 myproject/
     ├─ build/
@@ -28,7 +28,7 @@ myproject/
 Open CMakeLists.txt in a text editor and modify the following template:
 
 ```
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 
 project(MyProject)
 
