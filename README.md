@@ -22,8 +22,7 @@ This channel has a few tutorial playlists related to Geant4:
 
 1. Newer Playlist on Geant4: https://youtube.com/playlist?list=PLLybgCU6QCGUYAOwtyI4U8cRL6ig0p3c7&si=SLTs0pE4KMOXyWs2
 2. Older Playlist on Geant4: https://youtube.com/playlist?list=PLLybgCU6QCGWgzNYOV0SKen9vqg4KXeVL&si=U_FlTphOSG9_8Wib
-3. Newer Playist on CERN ROOT: https://youtube.com/playlist?list=PLLybgCU6QCGVIm0EbV2IXHYvQKmmUgCmv&si=lpa3dff9Vz7se-Dj
-4. Older Playist on CERN ROOT: https://youtube.com/playlist?list=PLLybgCU6QCGWLdDO4ZDaB0kLrO3maeYAe&si=SoR7dxCyUsJHPLos
+3. Playist on CERN ROOT: https://youtube.com/playlist?list=PLLybgCU6QCGWLdDO4ZDaB0kLrO3maeYAe&si=SoR7dxCyUsJHPLos
 
 ### Obsidian Canvas on Geant4
 https://github.com/ConnerGrice/Geant4-Obsidian-Learning-Resource
