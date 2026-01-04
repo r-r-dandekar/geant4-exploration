@@ -4,7 +4,9 @@ Simulation of radioactive decay of Flourine-18, and a Sodium Iodide scintillator
 This project is created following the tutorial series: https://youtube.com/playlist?list=PLLybgCU6QCGUYAOwtyI4U8cRL6ig0p3c7&si=yS8TmU0X4HzbdTNE
 
 ### Output
+![Visualization](./visualization.png)
+
 In theory, Flourine-18 decays by emitting a positron, which finds an electron, leading to their annihilation. This produces two gamma-ray photons each with an energy of 5.11 MeV. 
 This is reflected in by the spike at 5.11 MeV in the histogram of detected photons in the scintillator.
-![Output of Project](./output.png)
+![Histogram](./histogram.png)
 
