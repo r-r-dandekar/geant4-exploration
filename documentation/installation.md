@@ -84,6 +84,10 @@ make
 ./exampleB1
 ```
 
+It should show a window like this:
+
+![Output of Example B1](./images/example_b1.png)
+
 
 ## Adding the source to ~/.bashrc
 I've made a small script to source the required file:

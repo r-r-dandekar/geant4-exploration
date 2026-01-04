@@ -10,6 +10,16 @@ Some specific documentation relating to individual projects is also found in the
 ### Prerequisites
 You should be comfortable with C++ programming.
 
+
+## Examples with Code
+I've run the 2 major examples, located in the `projects/` directory. Each has a short README.md in its directory. Both are from the Physics Matters YouTube channel.
+
+### 1. projects/basicsim
+Basic simulation of Cherenkov radiation and detectors.
+
+### 2. projects/radioactive-decay
+Simulation of radioactive decay of Flourine-18, and a scintillator. Writes output to a ROOT file, including a histogram.
+
 ## Useful Resources
 
 ### Geant4 Documentation
