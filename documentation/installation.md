@@ -36,7 +36,7 @@ cmake \
   -D GEANT4_USE_QT=ON \
   -D GEANT4_USE_RAYTRACER_X11=ON \
   -D GEANT4_USE_SYSTEM_EXPAT=ON \
-  ~/base/dir/eant4-v11.4.0
+  ~/base/dir/geant4-v11.4.0
 ```
 
 Compile the code using:  
