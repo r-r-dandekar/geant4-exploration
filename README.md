@@ -1,6 +1,9 @@
 # geant4-exploration
 
-A repository documenting everything I'm doing to explore Geant4, starting from scratch. More detailed documentation on some specific things like creating a new project can be found in `documents/`
+A repository documenting everything I'm doing to explore Geant4, starting from scratch. 
+
+!!! More detailed documentation on some specific things like **installation** and **creating a new project** can be found in the **`documentation/` directory** !!!
+Some specific documentation relating to individual projects is also found in the relevant directories.
 
 
 ### Prerequisites
